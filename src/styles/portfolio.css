@@ -10,6 +10,7 @@
 }
 
 h1,
+h2,
 h3,
 h4,
 h5 {
@@ -90,6 +91,28 @@ a {
   margin-right: 30px;
 }
 
+.work-section img{
+    width: 400px;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.work-section h1{
+    font-size: 60px;
+    line-height:80px;
+}
+.work-section h3{
+    font-family: var(--default-font-family);
+    font-size: 20px;
+    font-weight: bold;
+}
+.work-section{
+    padding: 160px 130px;
+}
+.work-section p{
+    font-size: 12px;
+}
+
 .description {
   padding: 0px 60px;
 }
@@ -120,4 +143,7 @@ a {
     text-align: center;
     padding: 0;
   }
+  .work-section h1{ 
+    text-align: center;
+}
 }
