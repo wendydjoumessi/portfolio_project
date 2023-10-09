@@ -34,12 +34,42 @@
     <link rel="stylesheet" href="src/styles/portfolio.css" />
   </head>
   <body>
+     <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/">
+          <img
+            src="src/images/logo.png"
+            class="logo d-none d-md-block"
+            alt="SheCodes logo"
+          />
+          <img
+            src="src/images/logo-small.jpg"
+            class="logo-small d-block d-md-none"
+            alt="SheCodes logo"
+          />
+        </a>
+        <ul>
+          <li >
+            <a href="/"> Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html">About</a>
+          </li>
+          <li>
+            <a href="/work.html">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="container about-section">
       <div class="row">
         <div class="col-lg-6">
           <div class="about-section-container">
             <h1 class="mb-5">Hi I am Wendy Djoumessi</h1>
-            <div class="about-text">
+            <div>
               <h2>Frontend developer based in Cameroon</h2>
               <p class="mb-5 mt-3">
                 I am a cameroonian currently studying in the university of Buea
@@ -51,12 +81,12 @@
                 deadline are good to keep focus.
               </p>
             </div>
-            <a href="#" class="btn btn-branding mb-5">See my projects</a>
+            <a href="work.html" class="btn btn-branding mb-5">See my projects</a>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 about-image">
           <img
-            src="src/images/photo.jpg"
+            src="src/images/img13.jpg"
             alt="My_photo"
             class="img-fluid rounded"
           />
