@@ -34,10 +34,6 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
-a {
-  font-size: 30px;
-}
-
 .hero {
   text-align: center;
   background-color: var(--secondary-color);
@@ -78,6 +74,7 @@ a {
   line-height: 80px;
 }
 
+
 .about-section h2 {
   font-size: 22px;
   line-height: 30px;
@@ -85,34 +82,39 @@ a {
 }
 
 .about-section {
-    padding: 160px 20px;
+  padding: 160px 20px;
 }
-.about-section-container{
+.about-section-container {
   margin-right: 30px;
 }
 
-.work-section img{
-    width: 400px;
-    border-radius: 10px;
-    height: 300px;
+.work-section img {
+  width: 400px;
+  border-radius: 10px;
+  height: 300px;
 }
 
-.work-section h1{
-    font-size: 60px;
-    line-height:80px;
+.work-section h1 {
+  font-size: 60px;
+  line-height: 80px;
 }
-.work-section h3{
-    font-family: var(--default-font-family);
-    font-size: 20px;
-    font-weight: bold;
+.work-section h3 {
+  font-family: var(--default-font-family);
+  font-size: 20px;
+  font-weight: bold;
 }
-.work-section{
-    padding: 160px 130px;
+.work-section {
+  padding: 160px 130px;
 }
-.work-section p{
-    font-size: 12px;
+.work-section p {
+  font-size: 12px;
 }
-
+.content h1 {
+  font-size: 45px;
+}
+.content {
+  padding: 30px 200px;
+}
 .description {
   padding: 0px 60px;
 }
@@ -129,7 +131,7 @@ a {
 
   h1 {
     font-size: 55px;
-    line-height:56px;
+    line-height: 56px;
   }
 
   h2 {
@@ -139,11 +141,15 @@ a {
   .hero {
     padding: 80px 10px;
   }
-  .about-section{
+  .about-section {
     text-align: center;
     padding: 0;
   }
-  .work-section h1{ 
+  .work-section h1 {
     text-align: center;
-}
+  }
+  .content {
+    text-align: center;
+    padding: 30px 60px;
+  }
 }
