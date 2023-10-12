@@ -27,6 +27,9 @@ h1 {
 h2 {
   font-size: 50px;
 }
+h4 {
+  font-size: 48px;
+}
 
 p {
   font-family: var(--default-font-family);
@@ -86,7 +89,7 @@ p {
 .about-section-container {
   margin-right: 30px;
 }
-.about-image{
+.about-image {
   display: flex;
   justify-content: flex-end;
   max-height: 600px;
@@ -129,7 +132,7 @@ p {
 .logo {
   max-width: 150px;
 }
-.logo-small{
+.logo-small {
   max-width: 70px;
 }
 nav {
@@ -157,6 +160,40 @@ nav ul {
   padding: 0;
   margin: 0;
 }
+footer {
+  margin: 80px 0;
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .media-link a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50px;
+  transition: all 140ms ease-in-out;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer .media-link a:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
 
 @media (max-width: 960px) {
   .description {
@@ -171,6 +208,13 @@ nav ul {
 
   h2 {
     font-size: 35px;
+  }
+  h4 {
+    font-size: 26px;
+  }
+
+  footer p {
+    font-size: 10px;
   }
 
   .hero {
@@ -187,7 +231,16 @@ nav ul {
     text-align: center;
     padding: 30px 60px;
   }
-  nav a{
+  nav a {
     font-size: 14px;
+  }
+  footer .contact-box {
+    padding: 30px;
+  }
+  .btn {
+    font-size: 18px;
+  }
+  footer .contact-box{
+    display: none;
   }
 }
